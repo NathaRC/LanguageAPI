@@ -15,7 +15,7 @@ class Language extends PluginBase {
 	public function onEnable() {
 		static::$plugin = $this;
 		$this->saveDefaultConfig();
-		$this->getLogger()->info(TF::DARK_PURPLE.'Loaded successfully!'.base64_decode("DQogIF9fICAgICAgICAgICAgICAgICAgICAgICBfICAgICAgICAgICAgICAgICAgXyAgIF9fICAgIF9fICANCiAoICAvIF8gXyAgICAgL19fLyAgX18vLyAgLyApICAgICAgXyAnXyAvXy8gICBfKSAvICApLS8oX18pIA0KX18pLykoLy8gLykoLy8gICkoLy8gLy8pIChfXygpLykoLy8gLygvLykvICAgL19fKF9fLyAvIF9fLyAgDQogICAgICAgIC8gIC8gICAgICAgICAgICAgICAgIC8gIC8gICBfLyAgICAgICAgICAgICAgICAgICAgICA="));
+		$this->getLogger()->info(TF::DARK_PURPLE.'Loaded successfully!');
 	}
 
 	public static function getInstance() : Language{
