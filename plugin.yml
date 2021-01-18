@@ -8,6 +8,5 @@ api: 3.17
 commands:
   language:
     description: change your language
-    permission: default
     usage: /language list
     aliases: [lang]
