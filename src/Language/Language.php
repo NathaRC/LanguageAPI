@@ -12,6 +12,8 @@ use pocketmine\command\CommandSender;
 
 class Language extends PluginBase {
 
+        public static::$plugin;
+
 	public function onEnable() {
 		static::$plugin = $this;
 		$this->saveDefaultConfig();
